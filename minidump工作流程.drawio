@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="26.0.6">
   <diagram name="第 1 页" id="EC6Wt3JitaSyjSum0uJj">
-    <mxGraphModel>
+    <mxGraphModel dx="546" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0hcPZKj9vg_Yw0lxOlO-1" target="U0hcPZKj9vg_Yw0lxOlO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-1" value="device crash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0hcPZKj9vg_Yw0lxOlO-2" target="U0hcPZKj9vg_Yw0lxOlO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-2" value="writes dump to device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0hcPZKj9vg_Yw0lxOlO-3" target="U0hcPZKj9vg_Yw0lxOlO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-3" value="extracts dump from device" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="440" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0hcPZKj9vg_Yw0lxOlO-4" target="U0hcPZKj9vg_Yw0lxOlO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-4" value="decryption tool run on minidump" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0hcPZKj9vg_Yw0lxOlO-5" target="U0hcPZKj9vg_Yw0lxOlO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-5" value="QCAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U0hcPZKj9vg_Yw0lxOlO-6" value="stability analysis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
